@@ -6,6 +6,6 @@ public static void main(String[] args) {
 		//Fabinocci fab =new Fabinocci();
 		//fab.printFabinocci(0,0);
 	    //fab.printFabinocci(5);
-	   System.out.println( Date.checkDate("30/02/2001"));
+	   System.out.println( Date.checkDate("30/02/2000"));
 	}
 }
