@@ -1,0 +1,57 @@
+Multithreading;
+------------
+Runnable Interface
+Thread class
+Thread class implements runnable interface
+
+/*
+ * Thread class:gives information about the currently executing thread name
+ * Thread is a execution of smallest unit of application defined by scheduler
+ * Java can have single thread or more than one thread / multiple threads which can use the available resources concurrently. 
+ * For every thread a stack is created by JVM?
+ * 
+ * */
+ 
+ /
+ run() method should not be invoked directly
+ It shd be invoked implicitly by JVM or OS/
+ 
+ /*Lifecycle of A thread*/
+  1. Thread is instantiated : new thread()
+  2. Putting the thread into readypool: start()->stack for the thread is created
+  3. thread starts executing: run()=>JVM invokes the run method
+  4. thread pauses/block itself, so as to make sure threads gets a chance to execute.
+     wait(),sleep(),delay, I/O blocking
+  5. resume the thread using notify(),
+  6. terminating the thread: run method completed.
+  
+  // Sequence of execution of thread is unexpected
+  
+  Anonymus class
+  Thread thread3 = new Thread(thread2);
+  Runnable t2 = new Runnable(){
+  Thread t1;
+  t1=new Thread(this);}
+  
+  /*Scheduling of thread*/
+  setPriority()--> Priorities of thread - Normal,Min and Max
+  0-> Lowest
+  11/10/9/7 ->  depending on OS
+  
+  yield method:
+  when the thread scheduler gets yeild call than it checks the priority of other threads 
+  and if the other threads have more than or equal priority to urrent thread.
+  if there is no such thread available current thread continues.
+  
+  Joining a thread: complete the other thread and come back to me
+  
+  /*Synchronization*/
+  At a time not more than one thread can access this method
+  
+  /*static synchronization */
+  /*Static block*/
+  /wait and notify/
+  
+  ** wait, notify, notifyAll are NOT Thread methods. These are Object methods 
+  
+  

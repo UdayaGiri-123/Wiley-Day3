@@ -1,0 +1,16 @@
+Interview questions: 
+ 1. relation between start and run
+ -->when start() method is called, a new thread is created and run() method is implemented.
+ -->when run() method is called it directly go and implement run() method without creating a thread.
+ 
+ 2. how to use runnable thread 
+ by overriding run method inside it and passing it to a thread class.
+ 
+ 3. can i invoke run method explicitly 
+  yes we can invoke run method explicitly but it is not recommended
+  
+ 4. What are the constructors of Thread class?
+  Thread(){
+  }
+  Thread(Runnable object){
+  }
