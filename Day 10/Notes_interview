@@ -1,0 +1,50 @@
+**
+Lists
+
+What are the collections which implements serializable ?
+
+One difference between arraylist and vector in terms of capacity?
+Linked list,vector and ArrayList
+
+question--
+What is iterator and what it will return?
+We can remove elements while using iterator?
+Ans-- Iterator implements Iterable interface which allows the object which is implementing it to be iterated.
+
+
+List iterator
+
+** Set
+--> entry set
+--> If we want to add objects to set the object class must override the hashcode and equals method.
+**HashSet & LinkedHashSet
+-->
+** TreeSet 
+-->If we want object in Treeset , the class must implement comparable interface and it should override the method of it.
+--> So, hashcode,equals and compareTo shd be overrided to implement TreeSet
+
+**Map
+-->it does not implement collection interface 
+**HashMap & LinkedHashMap
+-->
+**HashTable
+-->
+**TreeMap
+-->
+**Dictionaries
+-->
+
+ ** 
+ comparator
+ --> it is a interface
+ --> the way of disconnecting the sorting algorithm with the main class
+ -->customized sorting can be done using comparator
+ 
+ ** conversions 
+ ArrayList to array
+ Array to arraylist
+ set to list 
+ list to set
+ entryset method in set
+ maps inside map
+ 
