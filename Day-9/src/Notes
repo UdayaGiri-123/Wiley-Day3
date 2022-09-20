@@ -1,0 +1,10 @@
+Character Hierarchy -->
+
+   FileWriter
+   FileReader
+   
+   
+  Byte Hierarchy -->
+  
+  FileInputStream
+  FileOutputStream
