@@ -1,0 +1,16 @@
+To Practice:
+--> Hash map with nested Map inside it.(More used by industry)
+-->Dequeue
+-->Priority queue
+-->Stack
+-->Vector
+-->property
+-->Enumerator
+-->ConcurrentHashMap
+  
+  Generics-->
+  create a generic class
+  create a generic method
+  extends number to restrict the type of data
+  implement and check how super keyword can be used
+  
